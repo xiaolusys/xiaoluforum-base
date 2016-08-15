@@ -8,5 +8,6 @@ publish:
     tag: forum
     file: Dockerfile
     mirror: https://n5fb0zgg.mirror.aliyuncs.com
-    tag: $$COMMIT
+    when:
+      branch: master
 
